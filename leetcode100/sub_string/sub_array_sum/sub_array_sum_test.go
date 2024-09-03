@@ -1,4 +1,4 @@
-package main
+package sub_array_sum
 
 import (
 	"fmt"

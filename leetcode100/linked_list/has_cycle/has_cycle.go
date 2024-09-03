@@ -1,4 +1,4 @@
-package main
+package has_cycle
 
 // 环形链表
 // 简单

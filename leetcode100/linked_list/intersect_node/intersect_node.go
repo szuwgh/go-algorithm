@@ -1,4 +1,4 @@
-package main
+package intersect_node
 
 import "fmt"
 

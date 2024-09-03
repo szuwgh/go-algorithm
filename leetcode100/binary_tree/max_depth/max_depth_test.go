@@ -1,4 +1,4 @@
-package main
+package max_depth
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package main
+package inorder_travesal
 
 import (
 	"fmt"

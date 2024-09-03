@@ -1,4 +1,4 @@
-package main
+package has_cycle
 
 import (
 	"fmt"
