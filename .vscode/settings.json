@@ -1,7 +1,7 @@
 {
     "remote.autoForwardPortsSource": "output",
-    "go.gopath": "E:\\goproject\\go-algorithm",
-    "go.inferGopath": false,
+    // "go.gopath": "/opt/goproject/go-algorithm",
+    "go.inferGopath": true,
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
     "go.gotoSymbol.includeImports": true,
@@ -10,9 +10,6 @@
     "go.testFlags": [
         "-v"
     ],
-    "go.toolsEnvVars": {
-        "GO111MODULE": "on",
-    },
     "window.zoomLevel": 0,
     "go.autocompleteUnimportedPackages": true,
     "go.gocodePackageLookupMode": "go",
@@ -21,8 +18,11 @@
         "editor.snippetSuggestions": "none",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
+            "source.organizeImports": "explicit"
         }
+    },
+    "go.alternateTools": {
+        "go": "/usr/local/go/bin/go"
     },
     "gopls": {
         "usePlaceholders": true, // add parameter placeholders when completing a function
@@ -51,4 +51,5 @@
     },
     "C_Cpp.intelliSenseCacheSize": 512,
     "go.lintTool": "golint",
+    "editor.fontSize": 16,
 }
